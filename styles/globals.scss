@@ -1,0 +1,50 @@
+@import 'bootstrap/scss/bootstrap';
+
+.button5 {border-radius: 12px};
+
+body{
+    background-color: #fff7f8;
+};
+
+.card-color{
+    background-color: #fae7e4;
+    border-color: #fae7e4;
+};
+
+.card-border{
+    border-radius: 30px;
+};
+
+.input-border{
+    border-radius: 8px;
+    border-color: #fae7e4;
+};
+
+.service-margin{
+    margin-top: 150px;
+};
+
+.list{
+    background-color: inherit;
+    border-color:#fff7f8;
+};
+
+.list:hover{
+    background-color:#fff2f2;
+};
+
+.join-now-button{
+    border-color: #ff5c3f;
+    width: 250px;
+}
+
+.whitepage{
+    background-color: white;
+    margin-top: 100px;
+};
+
+.button4{
+    height: 40px;
+    margin-top: 30px;
+    border-radius: 15px;
+}
