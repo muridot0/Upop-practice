@@ -8,8 +8,18 @@ import newyork from "../public/newyork.png"
 import bigben from "../public/bigben.png"
 import rome from "../public/rome.png"
 import greek from "../public/greek.png"
+import showroom from "../public/showroom.png"
+import rocks from "../public/rocks.jpg"
 import { Fragment } from "react-is"
-import { motion, useViewportScroll } from "framer-motion"
+import shortfatpic1 from "../public/shortfatpic1.jpg"
+import shortfatpic2 from "../public/shortfatpic2.jpg"
+import longskinny1 from "../public/longskinny1.jpg"
+import longpic from "../public/longpic.jpg"
+import typing from "../public/typing.jpg"
+
+
+
+
 
 export default function Home() {
 
@@ -67,19 +77,24 @@ export default function Home() {
             <div className="container">
               <div className="row">
                 <div className="col-sm-6 py-5 ps-2 ">
+                  
                   <h1 className="card-title" style={{textTransform: "capitalize", fontSize: "70px"}}>a better way to buy and sell a business</h1>
+                  
                   <br></br>
+
+                  
                   <h6 className="card-subtitle mb-2 text-muted" style={{fontSize: "20px"}}>U-Pop is an online platform that gives you all the best tools to buy or sell a business. </h6>
                   <br></br>
+
                   <div style={{display: "inline-flex"}}>
+                    
                     <div className="input-group">
+
                       <div className="input-group-text input-border" style={{backgroundColor: "white", borderRightColor: "white"}}><svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" className="bi bi-search" viewBox="0 0 16 16">
                         <path d="M11.742 10.344a6.5 6.5 0 1 0-1.397 1.398h-.001c.03.04.062.078.098.115l3.85 3.85a1 1 0 0 0 1.415-1.414l-3.85-3.85a1.007 1.007 0 0 0-.115-.1zM12 6.5a5.5 5.5 0 1 1-11 0 5.5 5.5 0 0 1 11 0z"/>
                       </svg></div>
                       <input className="form-control form-control-lg input-border py-3" size="200" type="text" placeholder="Found your dream property" style={{borderLeftColor: "white"}}></input>
-                      {/* <button>
-                        the man
-                      </button> */}
+
                     </div>
 
                     <div className="ps-5">
@@ -172,7 +187,7 @@ export default function Home() {
                   <p style={{fontSize: "20px"}}>select a city to begin exploring it&apos;s beautiful</p>
                 </div>
 
-                <button className="btn btn-outline-warning button4 text-nowrap">Explore</button>
+                <button className="btn btn-outline-warning button4" style={{color: "#ff5c3f"}}>Explore</button>
 
               </div>
 
@@ -211,8 +226,133 @@ export default function Home() {
             </div>
 
           </div>
+          <br />
+          <br />
+          <br />
+          <br />
+        </div>
+        
+        <div className="container service-margin">
+          <div className="row">
+
+            <div className="col-md">
+              
+            </div>
+
+            <div className="col-md-12 text-center pe-5" style={{textTransform: "capitalize"}}>
+              <h2><b>the best offer this month</b></h2>
+              <p style={{fontSize: "20px"}}>the best offering special for our beloved customer, don&apos;t miss it</p>
+              <bt className="btn btn-outline-warning discover-button" style={{color: "#ff5c3f"}}>discover more</bt>
+            </div>
+
+          </div>
 
         </div>
+
+        {/* <div className="container-fluid">
+          <div className="row">
+            <div className="col-md-4">
+              <Image src={longpic} width="100%" height="100" alt=""></Image>
+            </div>
+    
+            <div className="col-md-4">
+              <Image src={longskinny1} width="400px" height="375px" alt=""></Image>
+              <Image src={shortfatpic1} width="600px" height="375px" alt=""></Image>
+            </div>
+              
+            <div className="col-md-4">
+              <Image src={shortfatpic2} width="600px" height="375px" alt=""></Image>
+              <Image src={longskinny1} width="400px" height="375px" alt=""></Image>
+            </div>
+          </div>
+        </div> */}
+
+        <br />
+        <br />
+
+        {/* <div className="container image-gallery">
+          <div className="one">
+            <Image src={longpic} className="one" alt="" layout="responsive"></Image>
+          </div>
+          <div className="two">
+            <Image src={longskinny1} className="two" alt="" layout="responsive"></Image>
+          </div>
+          <div className="three">
+            <Image src={shortfatpic2} className="three" alt="" layout="responsive"></Image>
+          </div>100%
+          <div className="four">
+            <Image src={shortfatpic2} className="four" alt="" layout="responsive"></Image>
+          </div>
+          <div className="five">
+            <Image src={longskinny1} className="five" alt="" layout="responsive"></Image>
+          </div>
+        </div> */}
+
+        <div className="container image-gallery">
+          
+          <a href="public/longpic.jpg" className="one"></a>
+
+          <a href="public/longskinny1.jpg" className="two"></a>
+
+          <a href="public/shortfatpic2.jpg" className="three"></a>
+
+          <a href="public/shortfatpic2.jpg" className="four"></a>
+
+          <a href="public/lonskinny1.jpg" className="five"></a>
+
+          <br />
+          <br />
+        </div>
+
+          <div className="whitepage">
+            <br />
+            <br />
+            <br />
+            <br />
+
+            <div className="container">
+              <div className="row">
+                <div className="col-md">
+            
+                </div>
+                <div className="col-md-12 text-center pe-5" style={{textTransform: "capitalize"}}>
+                  <h2><b>What they said about us</b></h2>
+                  <p style={{fontSize: "20px"}}>Let our customers say their experience</p>
+                  <br />
+                  <br />
+                  <br />
+                </div>
+            
+                <div className="container">
+                  <div className="row">
+                    <div className="col-md-4 text-center">
+            
+                      <div className="" style={{width: "100%"}}>
+                        <div className="card-img-top">
+                          <Image src={typing} className="round-borders" alt="" layout="responsive"/>
+                        </div>
+                        <br />
+                        <div className="">
+                          <p className="card-text" style={{fontSize: "40px"}}>
+                            <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" className="bi bi-chat-quote" viewBox="0 0 16 16">
+                              <path d="M2.678 11.894a1 1 0 0 1 .287.801 10.97 10.97 0 0 1-.398 2c1.395-.323 2.247-.697 2.634-.893a1 1 0 0 1 .71-.074A8.06 8.06 0 0 0 8 14c3.996 0 7-2.807 7-6 0-3.192-3.004-6-7-6S1 4.808 1 8c0 1.468.617 2.83 1.678 3.894zm-.493 3.905a21.682 21.682 0 0 1-.713.129c-.2.032-.352-.176-.273-.362a9.68 9.68 0 0 0 .244-.637l.003-.01c.248-.72.45-1.548.524-2.319C.743 11.37 0 9.76 0 8c0-3.866 3.582-7 8-7s8 3.134 8 7-3.582 7-8 7a9.06 9.06 0 0 1-2.347-.306c-.52.263-1.639.742-3.468 1.105z"/>
+                              <path d="M7.066 6.76A1.665 1.665 0 0 0 4 7.668a1.667 1.667 0 0 0 2.561 1.406c-.131.389-.375.804-.777 1.22a.417.417 0 0 0 .6.58c1.486-1.54 1.293-3.214.682-4.112zm4 0A1.665 1.665 0 0 0 8 7.668a1.667 1.667 0 0 0 2.561 1.406c-.131.389-.375.804-.777 1.22a.417.417 0 0 0 .6.58c1.486-1.54 1.293-3.214.682-4.112z"/>
+                            </svg> It&apos;s a great experience using this product, very helpful to my business
+                          </p>
+                        </div>
+                      </div>
+                    </div>
+                    <div className="col-md-4 text-center">
+                    <a href="https://icons8.com/icon/93331/quote-left">Quote Left icon by Icons8</a>
+                    </div>
+                    <div className="col-md-4 text-center">
+                      the man
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
 
       </body>
 

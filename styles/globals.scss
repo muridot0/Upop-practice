@@ -40,6 +40,10 @@ body{
 
 .whitepage{
     background-color: white;
+    background-size: cover;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
     margin-top: 100px;
 };
 
@@ -47,4 +51,70 @@ body{
     height: 40px;
     margin-top: 30px;
     border-radius: 15px;
+    border-color: #ff5c3f;
+};
+
+.discover-button{
+    border-color: #ff5c3f;
+    border-radius: 10px;
+    width: 200px;
+};
+
+
+.image-gallery{
+    display: grid;
+    grid-template-columns: repeat(5, 1fr);
+    grid-template-rows: auto;
+    grid-gap: 1.5rem;
+    grid-template-areas: 
+        "one one two three three"
+        "one one four four five"
+};
+
+.image-gallery a{
+    width: 100%;
+    height: 25rem;
+    background-position: center;
+    background-size: cover;
+};
+
+.image-gallery a:hover{
+    background-color: #fff2f2;
+    transition: opacity 1s;
+    opacity: 0.5;
+}
+
+.one{
+    grid-area: one;
+    background-image: url("../public/longpic.jpg");
+    min-height: 51.5rem;
+    border-radius: 15px;
+}
+
+.two{
+    grid-area: two;
+    border-radius: 15px;
+    background-image: url("../public/longskinny1.jpg");
+}
+
+.three{
+    grid-area: three;
+    border-radius: 15px;
+    background-image: url("../public/shortfatpic1.jpg");
+}
+
+.four{
+    grid-area: four;
+    border-radius: 15px;
+    background-image: url("../public/shortfatpic1.jpg");
+}
+
+.five{
+    grid-area: five;
+    border-radius: 15px;
+    background-image: url("../public/longskinny1.jpg");
+};
+
+.round-borders{
+    border-radius: 8px;
 }
