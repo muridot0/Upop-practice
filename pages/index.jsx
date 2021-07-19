@@ -15,6 +15,7 @@ import profilepicwoman from "../public/profilepicwoman.jpg"
 
 
 
+
 export default function Home() {
 
   return (
@@ -24,7 +25,7 @@ export default function Home() {
       </Head>
       
       
-      <nav className="navbar lilac navbar-expand-md py-1" style={{width: "inherit", height: "inherit"}}>
+      <nav data-aos="fade-down" data-aos-duration="1000" className="navbar lilac navbar-expand-md py-1" style={{width: "inherit", height: "inherit"}}>
         <div className="container" style={{display: "inline"}}>
           <div className="row">
             <div className="col-md-2 col-12">
@@ -71,16 +72,20 @@ export default function Home() {
             <div className="container">
               <div className="row">
                 <div className="col-sm-6 py-5 ps-2 ">
+                  <br />
+                  <br />
+                  <br />
+                  <br />
                   
-                  <h1 className="card-title" style={{textTransform: "capitalize", fontSize: "70px"}}>a better way to buy and sell a business</h1>
+                  <h1 data-aos="fade-right" data-aos-duration="800" data-aos-delay="500" data-aos-easing="ease" className="card-title" style={{textTransform: "capitalize", fontSize: "70px"}}>a better way to buy and sell a business</h1>
                   
                   <br></br>
 
                   
-                  <h6 className="card-subtitle mb-2 text-muted" style={{fontSize: "20px"}}>U-Pop is an online platform that gives you all the best tools to buy or sell a business. </h6>
+                  <h6 data-aos="fade-right" data-aos-duration="800" data-aos-delay="600" data-aos-easing="ease" className="card-subtitle mb-2 text-muted" style={{fontSize: "20px"}}>U-Pop is an online platform that gives you all the best tools to buy or sell a business. </h6>
                   <br></br>
 
-                  <div style={{display: "inline-flex"}}>
+                  <div data-aos="fade-right" data-aos-duration="800" data-aos-delay="750" data-aos-easing="ease" style={{display: "inline-flex"}}>
                     
                     <div className="input-group">
 
@@ -109,6 +114,10 @@ export default function Home() {
             </div>
             
           </div>
+          <br />
+          <br />
+          <br />
+          <br />
         </div>
         
         <div className="container service-margin">
@@ -119,10 +128,10 @@ export default function Home() {
             </div>
 
             <div className="col-md-12 text-center pe-5">
-              <h2>Our Services</h2>
-              <p style={{textTransform: "capitalize", fontSize: "20px"}}>When the dreams come true, we&apos;re happy every step of the way</p>
-              <div className="list-group-horizontal list-group" style={{display: "inline-flex"}}>
-                <ul className="list-group">
+              <h2 data-aos="fade-up" data-aos-duration="800" data-aos-easing="ease">Our Services</h2>
+              <p data-aos="fade-up" data-aos-duration="800" data-aos-easing="ease" style={{textTransform: "capitalize", fontSize: "20px"}}>When the dreams come true, we&apos;re happy every step of the way</p>
+              <div data-aos-delay="500" className="list-group-horizontal list-group" style={{display: "inline-flex"}}>
+                <ul data-aos="fade-up" data-aos-duration="800" data-aos-delay="650" data-aos-easing="ease"className="list-group">
                   <a href="#" className="list-group-item list card-border text-wrap list-group-item-action">
                   <Image src={bestfeatures} alt="" width="50px" height="50px"></Image>
                   
@@ -132,7 +141,7 @@ export default function Home() {
                     </p>
                   </a>
                 </ul>
-                <ul className="list-group">
+                <ul data-aos="fade-up" data-aos-duration="800" data-aos-delay="500" data-aos-easing="ease"className="list-group">
                   <a href="#" className="list-group-item list text-wrap list-group-item-action">
                     <Image src={checkmark} alt="" width="50px" height="50px"></Image>
                     <h5 className="py-3">Ease of Use</h5>
@@ -141,7 +150,7 @@ export default function Home() {
                     </p>
                   </a>
                 </ul>
-                <ul className="list-group">
+                <ul data-aos="fade-up" data-aos-duration="800" data-aos-delay="650" data-aos-easing="ease"className="list-group">
                 <a href="#" className="list-group-item list text-wrap list-group-item-action">
                 <Image src={listings} alt="" width="50px" height="50px"></Image>
                   <h5 className="py-3">Thousands of Listings</h5>
@@ -153,7 +162,7 @@ export default function Home() {
               </div>
               <p></p>
               <br></br>
-              <button className="btn btn-outline-warning join-now-button" style={{color: "#ff5c3f"}}>Join Now</button>
+              <button data-aos="fade-up" data-aos-duration="800" data-aos-delay="750" data-aos-easing="ease" className="btn btn-outline-warning join-now-button" style={{color: "#ff5c3f"}}>Join Now</button>
             </div>
           </div>
         </div>
@@ -176,12 +185,12 @@ export default function Home() {
 
               <div style={{display: "inline-flex"}}>
                 
-                <div className="col-md-12 text-left" style={{textTransform: "capitalize"}}>
+                <div data-aos="fade-right" data-aos-duration="800" data-aos-easing="ease" className="col-md-12 text-left" style={{textTransform: "capitalize"}}>
                   <h2><b>every city is beautiful</b></h2>
                   <p style={{fontSize: "20px"}}>select a city to begin exploring it&apos;s beautiful</p>
                 </div>
 
-                <button className="btn btn-outline-warning button4" style={{color: "#ff5c3f"}}>Explore</button>
+                <button data-aos="fade-left" data-aos-duration="800" data-aos-easing="ease" className="btn btn-outline-warning button4" style={{color: "#ff5c3f"}}>Explore</button>
 
               </div>
 
@@ -194,26 +203,26 @@ export default function Home() {
             <div className="row">
               <div className="col-md-3">
 
-                <div className="card-body">
+                <div data-aos="fade-up" data-aos-duration="800" data-aos-delay="100" data-aos-easing="ease"className="card-body">
                   <Image src={newyork} alt="" width="300px" height="600px"></Image>
                 </div>
 
               </div>
               
               <div className="col-md-3">
-                <div className="card-body">
+                <div data-aos="fade-up" data-aos-duration="800" data-aos-delay="200"className="card-body">
                   <Image src={bigben} alt="" width="300px" height="600px"></Image>
                 </div>
               </div>
 
               <div className="col-md-3">
-                <div className="card-body">
+                <div data-aos="fade-up" data-aos-duration="800" data-aos-delay="300" className="card-body">
                   <Image src={rome} alt="" width="300px" height="600px"></Image>
                 </div>
               </div>
 
               <div className="col-md-3">
-                <div className="card-body">
+                <div data-aos="fade-up" data-aos-duration="800" data-aos-delay="400" className="card-body">
                   <Image src={greek} alt="" width="300px" height="600px"></Image>
                 </div>
               </div>
@@ -234,9 +243,9 @@ export default function Home() {
             </div>
 
             <div className="col-md-12 text-center pe-5" style={{textTransform: "capitalize"}}>
-              <h2><b>the best offer this month</b></h2>
-              <p style={{fontSize: "20px"}}>the best offering special for our beloved customer, don&apos;t miss it</p>
-              <bt className="btn btn-outline-warning discover-button" style={{color: "#ff5c3f"}}>discover more</bt>
+              <h2 data-aos="fade-up" data-aos-duration="800" data-aos-easing="ease"><b>the best offer this month</b></h2>
+              <p data-aos="fade-up" data-aos-duration="800" data-aos-delay="100" data-aos-easing="ease" style={{fontSize: "20px"}}>the best offering special for our beloved customer, don&apos;t miss it</p>
+              <bt data-aos="fade-up" data-aos-duration="800" data-aos-delay="200" data-aos-easing="ease" className="btn btn-outline-warning discover-button" style={{color: "#ff5c3f"}}>discover more</bt>
             </div>
 
           </div>
@@ -284,15 +293,15 @@ export default function Home() {
 
         <div className="container image-gallery">
           
-          <a href="public/longpic.jpg" className="one"></a>
+          <a data-aos="fade-right" data-aos-duration="800" data-aos-delay="200" data-aos-easing="ease" href="public/longpic.jpg" className="one"></a>
 
-          <a href="public/longskinny1.jpg" className="two"></a>
+          <a data-aos="fade-left" data-aos-duration="800" data-aos-delay="300" data-aos-easing="ease" href="public/longskinny1.jpg" className="two"></a>
 
-          <a href="public/shortfatpic2.jpg" className="three"></a>
+          <a data-aos="fade-left" data-aos-duration="800" data-aos-delay="400" data-aos-easing="ease" href="public/shortfatpic2.jpg" className="three"></a>
 
-          <a href="public/shortfatpic2.jpg" className="four"></a>
+          <a data-aos="fade-left" data-aos-duration="800" data-aos-delay="500" data-aos-easing="ease" href="public/shortfatpic2.jpg" className="four"></a>
 
-          <a href="public/lonskinny1.jpg" className="five"></a>
+          <a data-aos="fade-left" data-aos-duration="800" data-aos-delay="600" data-aos-easing="ease" href="public/lonskinny1.jpg" className="five"></a>
 
           <br />
           <br />
@@ -309,7 +318,7 @@ export default function Home() {
                 <div className="col-md">
             
                 </div>
-                <div className="col-md-12 text-center pe-5" style={{textTransform: "capitalize"}}>
+                <div data-aos="fade-up" data-aos-duration="800" data-aos-easing="ease" className="col-md-12 text-center pe-5" style={{textTransform: "capitalize"}}>
                   <h2><b>What they said about us</b></h2>
                   <h5 style={{fontSize: "20px"}}>Let our customers say their experience</h5>
                   <br />
@@ -321,7 +330,7 @@ export default function Home() {
                   <div className="row">
                     <div className="col-md-4">
             
-                      <div className="" style={{width: "100%"}}>
+                      <div data-aos="fade-up" data-aos-duration="800" data-aos-delay="100" data-aos-easing="ease" className="" style={{width: "100%"}}>
                         <div>
                           <Image src={profilepicwoman} className="round-borders" alt="" width="416" height="416rem"/>
                         </div>
@@ -342,7 +351,7 @@ export default function Home() {
                         </div>
                       </div>
                     </div>
-                    <div className="col-md-4">
+                    <div data-aos="fade-up" data-aos-duration="800" data-aos-delay="200" data-aos-easing="ease" className="col-md-4">
                       <div className="card" style={{backgroundColor: "ghostwhite", borderColor: "ghostwhite"}}>
                         <div className="card-body" style={{display: "inline-flex"}}>
                           <svg xmlns="http://www.w3.org/2000/svg" width="25" height="25" fill="currentColor" className="bi bi-chat-quote" viewBox="0 0 16 16">
@@ -410,7 +419,7 @@ export default function Home() {
 
                     </div>
 
-                    <div className="col-md-4">
+                    <div data-aos="fade-up" data-aos-duration="800" data-aos-delay="300" data-aos-easing="ease" className="col-md-4">
                       <div className="card" style={{backgroundColor: "ghostwhite", borderColor: "ghostwhite"}}>
                         <div className="card-body" style={{display: "inline-flex"}}>
                           <svg xmlns="http://www.w3.org/2000/svg" width="25" height="25" fill="currentColor" className="bi bi-chat-quote" viewBox="0 0 16 16">
@@ -513,11 +522,15 @@ export default function Home() {
             <br />
             <br />
             <div style={{textTransform: "capitalize"}}>
-              <h2 className="pt-5">Let&apos;s growing with us!</h2>
-              <p style={{fontSize: "20px"}}>start as earlier so you get more benefit from your business.</p>
-              <p className="" style={{fontSize: "20px", marginTop: "-25px"}}>register now for free</p>
+              <h2 data-aos="fade-up" data-aos-duration="800" data-aos-delay="300" data-aos-easing="ease" className="pt-5">Let&apos;s growing with us!</h2>
+              <p data-aos="fade-up" data-aos-duration="800" data-aos-delay="400" data-aos-easing="ease" style={{fontSize: "20px"}}>start as earlier so you get more benefit from your business.</p>
+              <p data-aos="fade-up" data-aos-duration="800" data-aos-delay="400" data-aos-easing="ease" className="" style={{fontSize: "20px", marginTop: "-25px"}}>register now for free</p>
 
-              <button className="btn btn-outline-warning register-now-button" style={{color: "white"}}>Register Now</button>
+              <button data-aos="fade-up" data-aos-duration="800" data-aos-delay="500" data-aos-easing="ease" className="btn btn-outline-warning register-now-button" style={{color: "white"}}>Register Now</button>
+            <br />
+            <br />
+            <br />
+            <br />
             <br />
             <br />
             <br />
@@ -534,7 +547,7 @@ export default function Home() {
       <br />
 
 
-      <div className="container">
+      <div data-aos="fade-up" data-aos-duration="800" data-aos-delay="600" data-aos-easing="ease" className="container">
         <div className="row">
 
           <div className="col text-start">
@@ -605,7 +618,7 @@ export default function Home() {
 
       </div>
 
-      <div className="container">
+      <div data-aos="fade-down" data-aos-duration="800" data-aos-delay="300" data-aos-easing="linear" className="container">
         <div className="row">
           <div className="col pt-5">
             <span className="text-muted ps-2" style={{fontSize: "15px"}}>We are also available in</span>
